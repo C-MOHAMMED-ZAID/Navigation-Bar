@@ -1,2 +1,2 @@
-# Navigation-Bar1
-https://c-mohammed-zaid.github.io/Navigation-Bar1/index.html
+# Navigation-Bar
+https://c-mohammed-zaid.github.io/Navigation-Bar/index.html
