@@ -54,7 +54,7 @@ header {
 }
 
 .hero {
-    background-image: url('gettyimages-147456329-612x612.jpg'); /* Replace with your hero image */
+    background-image: url('gettyimages-147456329-612x612.jpg'); 
     background-size: cover;
     color: white;
     text-align: center;
@@ -95,11 +95,11 @@ header {
    border-radius: 5px; 
    padding: 20px; 
    margin: 10px; 
-   width: calc(30% - 40px); /* Adjust width for three columns */
+   width: calc(30% - 40px); 
 }
 
 .portfolio-gallery img {
-   width: calc(33% - 20px); /* Adjust width for three images */
+   width: calc(33% - 20px); 
    margin-bottom: 15px; 
 }
 
@@ -113,10 +113,10 @@ footer {
 /* Responsive Styles */
 @media (max-width: 768px) {
    .nav-links {
-       display: none; /* Hide links by default */
-       flex-direction: column; /* Stack links vertically */
-       position: absolute; /* Position the dropdown */
-       top: 60px; /* Below the navbar */
+       display: none; 
+       flex-direction: column;
+       position: absolute; 
+       top: 60px; 
        left: 0; 
        width: 100%; 
        background-color: #333; 
@@ -124,22 +124,22 @@ footer {
    }
 
    .nav-links.show {
-       display: flex; /* Show links when toggled */
+       display: flex; 
    }
 
    .menu-icon {
-       display: flex; /* Show menu icon on small screens */
+       display: flex; 
    }
 
    .nav-links li {
-       display: block; /* Stack links vertically */
+       display: block; 
        text-align: center; 
        width: 100%; 
    }
 
    .service-cards .card,
    .portfolio-gallery img {
-       width: calc(100% - 40px); /* Full width on mobile */
+       width: calc(100% - 40px);
        margin-bottom: 15px; 
    }
 }
